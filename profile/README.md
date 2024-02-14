@@ -59,6 +59,7 @@ organizada o saldo financeiro ao final de cada dia.
 - Docker Desktop para Windows Versão 4.27.1 (https://www.docker.com/)
 - Draw.io para criação do Diagrama de Arquitetura
 - Lucidchart para criação do Digrama de Banco de Dados
+- Git Bash Versão 2.43.0.windows.1 (https://git-scm.com/downloads)
 
 ## Repositórios
   Este projeto contempla 5 reposórios é recomendado que estes esteja seja clonados no mesmo diretórios ficando com a seguinte estrutura.
