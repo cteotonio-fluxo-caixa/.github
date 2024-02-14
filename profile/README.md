@@ -6,9 +6,9 @@ transações, tanto entradas (créditos) quanto saídas (débitos). Além disso,
 fornecer um relatório que apresente o saldo consolidado no final de cada dia.
 
 ### Requisitos de negócio
-▪  Desenvolvimento de um serviço que permita o registro e gerenciamento de lançamentos financeiros, 
+* Desenvolvimento de um serviço que permita o registro e gerenciamento de lançamentos financeiros, 
 abrangendo tanto débitos quanto créditos;
-▪ Criação de um serviço que gere relatórios de consolidado diário, apresentando de forma clara e 
+* Criação de um serviço que gere relatórios de consolidado diário, apresentando de forma clara e 
 organizada o saldo financeiro ao final de cada dia.
 
 <!--
