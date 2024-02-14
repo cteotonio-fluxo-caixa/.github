@@ -26,6 +26,58 @@ organizada o saldo financeiro ao final de cada dia.
 ## Diagrama de Banco de Dados
 <img src="https://github.com/cleteot/repo-fluxo-caixa/blob/master/Documentacao/Diagrama ER de banco de dados Fluxo de Caixa.jpeg" alt="Diagrama de Banco de Dados" with="400px" height="500px">
 
+### Definições Arquiteturais, Padrões de Projeto e Frameworks
+**1) Microsserviços**
+    Este projeto será desenvolvido em microsserviços, pois este modelo nos orienta a criarmos serviços independentes que por sua vez tem as seguintes vantagens:
+- **Descentralização**: Cada microsserviço opera como uma unidade independente e autônoma, geralmente com seu próprio banco de dados.
+- **Comunicação**: Os microsserviços se comunicam entre si por meio de interfaces bem definidas, como APIs.
+- **Escalabilidade Independente**: Cada serviço pode ser dimensionado separadamente, permitindo melhor escalabilidade.
+- **Resiliência**: Se um serviço falha, isso não afeta diretamente outros serviços.
+- **Implantação Independente**: Cada serviço pode ser construído, testado e implantado independentemente dos outros.
+- Como desvantagem, gerenciar varias partes de sistema e garantir sua consistência.
+  
+**2) Padrões de Projeto**
+  - DDD (Domain-Driven Design)
+      - Foca no entendimento profundo do domínio antes da criação de soluções técnicas, o que nos permite primeiro olhar para o negócio e depois como será resolvido técnicamente
+  - Repository
+      - Fornece uma interface para acessar dados, proporciona um ponto centralizado de leitura e gravação de dados, mantém a lógica de negócios desacopladas.
+             
+**3) Frameworks**
+  - EntityFrameWork (ORM)
+      - Permite lidarmos diretamente com o objetos, tem suporte a vários provedores de banco de dados.
+  - AutoMapper
+      - Como cada camada da aplicação terá seu objeto de entidade, é comum fazermos a correspondência entre este objetos e o AutoMapper agiliza esta tarefa.
+  - xUnit
+      - Framework para escrever testes unitários, e é possível criar extensões personalizadas para atender requisitos específicos  
+
+## Ferramentas
+- Microsoft Visual Studio Community 2022 (64 bits) - Versão 17.8.4 (https://visualstudio.microsoft.com/pt-br/vs/community/)
+- Linguagem de programação .Net Core 12
+- SDK NET 8 (Fornece suporte a longo prazo) (https://dotnet.microsoft.com/pt-br/download/dotnet/8.0)
+- Gerenciador de Banco de Dados MS SQL SERVER 2019
+- Gerenciador de Filas de Mensagens RabbitMQ hospedado na AWS
+- Docker Desktop para Windows Versão 4.27.1 (https://www.docker.com/)
+- Draw.io para criação do Diagrama de Arquitetura
+- Lucidchart para criação do Digrama de Banco de Dados
+
+## Repositórios
+  Este projeto contempla 5 reposórios é recomendado que estes esteja seja clonados no mesmo diretórios ficando com a seguinte estrutura.
+  Aproveite para acessar cadas um deles e verificar sua documentação
+
+### Pasta Raiz
+- [docker](https://github.com/cteotonio-fluxo-caixa/docker)
+- [backend-transacoes](https://github.com/cteotonio-fluxo-caixa/backend-transacoes)
+- [backend-relatorios](https://github.com/cteotonio-fluxo-caixa/backend-relatorios)
+- [backend-usuarios](https://github.com/cteotonio-fluxo-caixa/backend-usuarios)
+- [backend-autenticacao-autorizacao](https://github.com/cteotonio-fluxo-caixa/backend-autenticacao-autorizacao)
+
+## ⏭️ Próximos passos
+
+- Criar Microsserviço de Usuários
+- Criar Microsserviço de Autenticação Autorização
+- Implementar coleta de logs no Splunk
+- Implementar versionamento de registros de transações
+
 <!--
 
 **Here are some ideas to get you started:**
