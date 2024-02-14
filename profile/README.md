@@ -60,6 +60,7 @@ organizada o saldo financeiro ao final de cada dia.
 - Draw.io para criação do Diagrama de Arquitetura
 - Lucidchart para criação do Digrama de Banco de Dados
 - Git Bash Versão 2.43.0.windows.1 (https://git-scm.com/downloads)
+- Terminal do Windows Versão 1.18 (https://apps.microsoft.com/detail/9N0DX20HK701?hl=pt-br&gl=BR)
 
 ## Repositórios
   Este projeto contempla 5 reposórios é recomendado que estes esteja seja clonados no mesmo diretórios ficando com a seguinte estrutura.
