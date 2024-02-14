@@ -11,6 +11,21 @@ abrangendo tanto débitos quanto créditos;
 * Criação de um serviço que gere relatórios de consolidado diário, apresentando de forma clara e 
 organizada o saldo financeiro ao final de cada dia.
 
+### Diagrama de contexto do sistema (Nível 1)
+<img src="https://github.com/cleteot/repo-fluxo-caixa/blob/master/Documentacao/01.Diagrama%20de%20contexto%20do%20sistema.png" alt="Diagrama de contexto" with="400px" height="500px">
+
+### Diagrama de container (Nível 2)
+<img src="https://github.com/cleteot/repo-fluxo-caixa/blob/master/Documentacao/02.Conteiner.png" alt="Diagrama de container" with="400px" height="500px">
+
+### Diagrama de componente API Application (Nível 3)
+<img src="https://github.com/cleteot/repo-fluxo-caixa/blob/master/Documentacao/03.ComponenteAPIApplication.png" alt="Componente API Apllication" with="400px" height="500px">
+
+### Diagrama de componente Mensageria (Nível 3)
+<img src="https://github.com/cleteot/repo-fluxo-caixa/blob/master/Documentacao/04.ComponenteMensageria.png" alt="Componente Mensageria" with="400px" height="500px">
+
+## Diagrama de Banco de Dados
+<img src="https://github.com/cleteot/repo-fluxo-caixa/blob/master/Documentacao/Diagrama ER de banco de dados Fluxo de Caixa.jpeg" alt="Diagrama de Banco de Dados" with="400px" height="500px">
+
 <!--
 
 **Here are some ideas to get you started:**
