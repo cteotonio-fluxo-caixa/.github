@@ -1,5 +1,16 @@
 ## Projeto Fluxo de Caixa 👋
 
+## Solicitação
+Um comerciante necessita de um sistema para gerenciar seu fluxo de caixa diário, registrando todas as 
+transações, tanto entradas (créditos) quanto saídas (débitos). Além disso, é essencial que o sistema possa 
+fornecer um relatório que apresente o saldo consolidado no final de cada dia.
+
+### Requisitos de negócio
+▪  Desenvolvimento de um serviço que permita o registro e gerenciamento de lançamentos financeiros, 
+abrangendo tanto débitos quanto créditos;
+▪ Criação de um serviço que gere relatórios de consolidado diário, apresentando de forma clara e 
+organizada o saldo financeiro ao final de cada dia.
+
 <!--
 
 **Here are some ideas to get you started:**
@@ -10,3 +21,5 @@
 🍿 Fun facts - what does your team eat for breakfast?
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
+
+
