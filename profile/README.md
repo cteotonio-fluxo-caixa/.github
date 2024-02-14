@@ -57,6 +57,7 @@ organizada o saldo financeiro ao final de cada dia.
 - Gerenciador de Banco de Dados MS SQL SERVER 2019
 - Gerenciador de Filas de Mensagens RabbitMQ hospedado na AWS
 - Docker Desktop para Windows Versão 4.27.1 (https://www.docker.com/)
+- WSL 2 (https://apps.microsoft.com/detail/9P9TQF7MRM4R?hl=pt-br&gl=BR)
 - Draw.io para criação do Diagrama de Arquitetura
 - Lucidchart para criação do Digrama de Banco de Dados
 - Git Bash Versão 2.43.0.windows.1 (https://git-scm.com/downloads)
