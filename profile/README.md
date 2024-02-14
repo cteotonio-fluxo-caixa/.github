@@ -65,11 +65,11 @@ organizada o saldo financeiro ao final de cada dia.
   Aproveite para acessar cadas um deles e verificar sua documentação
 
 ### Pasta Raiz
-- [docker](https://github.com/cteotonio-fluxo-caixa/docker)
-- [backend-transacoes](https://github.com/cteotonio-fluxo-caixa/backend-transacoes)
-- [backend-relatorios](https://github.com/cteotonio-fluxo-caixa/backend-relatorios)
-- [backend-usuarios](https://github.com/cteotonio-fluxo-caixa/backend-usuarios)
-- [backend-autenticacao-autorizacao](https://github.com/cteotonio-fluxo-caixa/backend-autenticacao-autorizacao)
+- [docker](https://github.com/cteotonio-fluxo-caixa/docker){:target="_blank"}
+- [backend-transacoes](https://github.com/cteotonio-fluxo-caixa/backend-transacoes){:target="_blank"}
+- [backend-relatorios](https://github.com/cteotonio-fluxo-caixa/backend-relatorios){:target="_blank"}
+- [backend-usuarios](https://github.com/cteotonio-fluxo-caixa/backend-usuarios){:target="_blank"}
+- [backend-autenticacao-autorizacao](https://github.com/cteotonio-fluxo-caixa/backend-autenticacao-autorizacao){:target="_blank"}
 
 ## ⏭️ Próximos passos
 
